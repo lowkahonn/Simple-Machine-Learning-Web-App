@@ -10,7 +10,8 @@ The categorical features are encoded with OneHotEncoder to zeros and ones column
 
 This app will create a .csv file for the first time the server is started, and it will store every pieces of data in data.csv each time it receives a JSON data. 
 
-Steps to run the python app
+Steps to run the python app:
+
 Step 1. Start the server with command: nohup python3 -m ml_service &
 Remarks: Run the app outside the ml_service folder
 
