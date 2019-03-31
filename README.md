@@ -1,6 +1,6 @@
 # Simple-Machine-Learning-Web-App
 
-This web app allows users to send JSON data via HTTP requests.
+This web app allows users to send JSON data via HTTP requests via Linux terminal.
 
 Eg. curl -H "Content-Type: application/json" -X POST -d '{my_json_data}' http://localhost:5000/learn
 
@@ -14,8 +14,9 @@ This app will create a .csv file for the first time the server is started, and i
 
 Steps to run the python app:
 
-Step 1. Start the server with command: nohup python3 -m ml_service &
 Remarks: Run the app outside the ml_service folder
+
+Step 1. Start the server with command: nohup python3 -m ml_service &
 
 Step 2. Send training examples to http://localhost:5000/learn
 
