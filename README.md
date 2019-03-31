@@ -1,9 +1,11 @@
 # Simple-Machine-Learning-Web-App
 
 This web app allows users to send JSON data via HTTP requests.
+
 Eg. curl -H "Content-Type: application/json" -X POST -d '{my_json_data}' http://localhost:5000/learn
 
 The machine learning model can predict the target based on two features, one is a real value feature 'age', and the other one is a categorical feature 'species'. The target of this model is a real value target 'score'.
+
 Eg. {'age' : 1.2, 'species' : 'dog', 'score' : 3.6}
 
 The categorical features are encoded with OneHotEncoder to zeros and ones columns, and Bayesian Ridge Regression is chosen as the machine learning model to predict real value targets based on real value features.
